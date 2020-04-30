@@ -447,10 +447,10 @@
 					</package>
 					<class name="GameOver"/>
 					<class name="BigStoreSearch"/>
-					<class name="PayZone"/>
 					<class name="Craft"/>
-					<class name="KnownledgeBase"/>
+					<class name="PayZone"/>
 					<class name="ForgemagusCraft"/>
+					<class name="KnownledgeBase"/>
 					<class name="Subway"/>
 					<class name="Party"/>
 					<class name="GuildMemberInfos"/>
@@ -482,11 +482,11 @@
 					<package name="subway">
 						<class name="SubwayItem"/>
 					</package>
+					<class name="Login"/>
 					<package name="knownledgebase">
 						<class name="KnownledgeBaseItem"/>
 						<class name="KnownledgeBaseCategoryItem"/>
 					</package>
-					<class name="Login"/>
 					<package name="party">
 						<class name="PartyItem"/>
 					</package>
@@ -497,11 +497,11 @@
 					<class name="DocumentBook"/>
 					<class name="ItemFound"/>
 					<class name="MonsterAndLookSelector"/>
+					<class name="NpcDialog"/>
 					<package name="fightsinfos">
 						<class name="FightsInfosPlayerItem"/>
 						<class name="FightsInfosFightItem"/>
 					</package>
-					<class name="NpcDialog"/>
 					<class name="AskPrivateChat"/>
 					<class name="SpellForget"/>
 					<class name="PlayerShopModifier"/>
@@ -560,8 +560,8 @@
 						<class name="BigStoreSellFilter"/>
 					</package>
 					<class name="Zoom"/>
-					<class name="ChooseServer"/>
 					<class name="AskLinkWarning"/>
+					<class name="ChooseServer"/>
 					<class name="MainMenu"/>
 					<package name="inventory">
 						<class name="ContainerBackground"/>
