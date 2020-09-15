@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<loader version="1.32.0">
+<loader version="1.33.0">
 	<package name="ank">
 		<package name="external">
 			<package name="display">
@@ -133,7 +133,7 @@
 				<class name="RSSChannel"/>
 				<class name="RSSLoader"/>
 			</package>
-			<class name="QueueEmbedMovieClip"/>	
+			<class name="QueueEmbedMovieClip"/>
 		</package>
 	</package>
 	<package name="com">
@@ -346,10 +346,10 @@
 						<class name="GuildBoostsViewerSpell"/>
 					</package>
 					<class name="SpellInfosViewer"/>
+					<class name="GuildMountParkViewer"/>
 					<package name="questionviewer">
 						<class name="QuestionViewerAnswerItem"/>
 					</package>
-					<class name="GuildMountParkViewer"/>
 					<class name="GuildMembersViewer"/>
 					<package name="spellfullinfosvieweritem">
 						<class name="SpellFullInfosViewerItem"/>
@@ -358,8 +358,8 @@
 					<package name="guildmountparkviewer">
 						<class name="MountParksViewerItem"/>
 					</package>
-					<class name="ColorSelector"/>
 					<class name="Chat"/>
+					<class name="ColorSelector"/>
 					<class name="ChooseItemSkin"/>
 					<package name="listinventoryviewer">
 						<class name="ListInventoryViewerItem"/>
@@ -446,11 +446,12 @@
 						<class name="SpellsItem"/>
 					</package>
 					<class name="GameOver"/>
+					<class name="MakeMimibiote"/>
 					<class name="BigStoreSearch"/>
-					<class name="Craft"/>
 					<class name="PayZone"/>
-					<class name="ForgemagusCraft"/>
+					<class name="Craft"/>
 					<class name="KnownledgeBase"/>
+					<class name="ForgemagusCraft"/>
 					<class name="Subway"/>
 					<class name="Party"/>
 					<class name="GuildMemberInfos"/>
@@ -482,16 +483,17 @@
 					<package name="subway">
 						<class name="SubwayItem"/>
 					</package>
-					<class name="Login"/>
 					<package name="knownledgebase">
 						<class name="KnownledgeBaseItem"/>
 						<class name="KnownledgeBaseCategoryItem"/>
 					</package>
+					<class name="Login"/>
 					<package name="party">
 						<class name="PartyItem"/>
 					</package>
 					<class name="StatsJob"/>
 					<class name="DirectionChooser"/>
+					<class name="MakeReport"/>
 					<class name="AskYesNoIgnore"/>
 					<class name="AskYesNo"/>
 					<class name="DocumentBook"/>
@@ -627,8 +629,8 @@
 			<class name="Feat"/>
 			<class name="ConquestVillageData"/>
 			<class name="OfflineCharacter"/>
-			<class name="Document"/>
 			<class name="Mutant"/>
+			<class name="Document"/>
 			<class name="ItemSet"/>
 			<class name="FightChallengeData"/>
 			<class name="PrismPoint"/>
@@ -646,8 +648,8 @@
 			<class name="Spell"/>
 			<class name="FeatEffect"/>
 			<class name="LaunchedSpell"/>
-			<class name="ServerProblemEvent"/>
 			<class name="Rank"/>
+			<class name="ServerProblemEvent"/>
 			<class name="Team"/>
 			<class name="PlayerShop"/>
 			<class name="TutorialWaitingCase"/>
