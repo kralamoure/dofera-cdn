@@ -483,6 +483,9 @@
 					<package name="subway">
 						<class name="SubwayItem"/>
 					</package>
+					<package name="banner">
+						<class name="Gauge"/>
+					</package>
 					<package name="knownledgebase">
 						<class name="KnownledgeBaseItem"/>
 						<class name="KnownledgeBaseCategoryItem"/>
