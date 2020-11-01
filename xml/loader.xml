@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <loader version="1.33.6">
 	<package name="ank">
 		<package name="external">
@@ -111,6 +111,7 @@
 				<class name="MovieClipExtensions"/>
 			</package>
 			<class name="Logger"/>
+			<class name="CyclicTimer"/>
 			<class name="SharedObjectFix"/>
 			<class name="Sequencer"/>
 			<class name="MouseEvents"/>
@@ -123,7 +124,6 @@
 			<class name="ExtendedArray"/>
 			<class name="ConsoleUtils"/>
 			<class name="Md5"/>
-			<class name="CyclicTimer"/>
 			<class name="ExtendedString"/>
 			<class name="Crypt"/>
 			<class name="Countries"/>
