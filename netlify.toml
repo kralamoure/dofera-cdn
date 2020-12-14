@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/*.swf"
+  [headers.values]
+	Cache-Control = "no-store"
