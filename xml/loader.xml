@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<loader version="1.34.0">
+<loader version="1.34.1">
 	<package name="ank">
 		<package name="external">
 			<package name="display">
@@ -115,6 +115,7 @@
 			<class name="CyclicTimer"/>
 			<class name="SharedObjectFix"/>
 			<class name="Sequencer"/>
+			<class name="MouseClicks"/>
 			<class name="MouseEvents"/>
 			<class name="CustomDate"/>
 			<class name="Compressor"/>
@@ -125,6 +126,9 @@
 			<class name="ExtendedArray"/>
 			<class name="ConsoleUtils"/>
 			<class name="Md5"/>
+			<package name="datacenter">
+				<class name="MouseClick"/>
+			</package>
 			<class name="ExtendedString"/>
 			<class name="Crypt"/>
 			<class name="Countries"/>
@@ -698,12 +702,6 @@
 		</package>
 	</package>
 	<package name="org">
-		<package name="flashdevelop">
-			<package name="utils">
-				<class name="FlashConnect"/>
-				<class name="TraceLevel"/>
-			</package>
-		</package>
 		<package name="utils">
 			<class name="Bitmap"/>
 			<class name="SimpleDateFormatter"/>
