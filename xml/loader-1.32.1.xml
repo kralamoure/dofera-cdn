@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loader>
+	<package name="ank">
+		<package name="external">
+			<package name="display">
+				<class name="ScreenResolution"/>
+			</package>
+			<class name="ExternalConnectorListerner"/>
+			<class name="ExternalConnector"/>
+		</package>
+		<package name="battlefield">
+			<class name="InteractionHandler"/>
+			<class name="ZoneHandler"/>
+			<class name="VisualEffectHandler"/>
+			<package name="utils">
+				<class name="Pathfinding"/>
+				<class name="SpriteDepthFinder"/>
+				<class name="Compressor"/>
+			</package>
+			<class name="PointerHandler"/>
+			<class name="SpriteHandler"/>
+			<class name="GlobalSpriteHandler"/>
+			<class name="TextHandler"/>
+			<class name="PointsHandler"/>
+			<class name="OverHeadHandler"/>
+			<class name="GridHandler"/>
+			<class name="Battlefield"/>
+			<class name="Constants"/>
+			<class name="LoadManager"/>
+			<class name="SelectionHandler"/>
+			<package name="mc">
+				<class name="BubbleThink"/>
+				<class name="Sprite"/>
+				<class name="InteractiveObject"/>
+				<class name="Cell"/>
+				<class name="Bubble"/>
+				<class name="Container"/>
+				<class name="Zone"/>
+				<class name="Points"/>
+				<class name="OverHead"/>
+				<class name="ExternalContainer"/>
+			</package>
+			<class name="MapHandler"/>
+			<package name="datacenter">
+				<class name="Map"/>
+				<class name="Mount"/>
+				<class name="Cell"/>
+				<class name="VisualEffect"/>
+				<class name="Sprite"/>
+			</package>
+		</package>
+		<package name="gapi">
+			<class name="Gapi"/>
+			<package name="controls">
+				<class name="Button"/>
+				<class name="DataGrid"/>
+				<class name="ScrollBar"/>
+				<class name="Compass"/>
+				<class name="ComboBox"/>
+				<package name="button">
+					<class name="ButtonBackground"/>
+				</package>
+				<class name="VolumeSlider"/>
+				<class name="Container"/>
+				<class name="Window"/>
+				<class name="Fps"/>
+				<class name="ConsoleLogger"/>
+				<package name="scrollbar">
+					<class name="ScrollThumb"/>
+				</package>
+				<class name="VerticalChrono"/>
+				<class name="ChatArea"/>
+				<class name="CircleChrono"/>
+				<class name="ProgressBar"/>
+				<class name="BackgroundHidder"/>
+				<class name="ToolTip"/>
+				<class name="TextInput"/>
+				<class name="Label"/>
+				<class name="List"/>
+				<class name="PopupMenu"/>
+				<class name="ContainerGrid"/>
+				<class name="MapNavigator"/>
+				<package name="common">
+					<class name="DefaultHighlight"/>
+					<class name="DefaultBackground"/>
+				</package>
+				<class name="Loader"/>
+				<class name="TextArea"/>
+				<package name="list">
+					<class name="DefaultCellRenderer"/>
+					<class name="SelectableRow"/>
+				</package>
+				<class name="StylizedRectangle"/>
+				<class name="ColorPicker"/>
+				<class name="Clock"/>
+			</package>
+			<package name="ui">
+				<class name="FlyWindow"/>
+			</package>
+			<package name="styles">
+				<class name="StylesManager"/>
+				<class name="DefaultStylePackage"/>
+			</package>
+			<package name="core">
+				<class name="UIAdvancedComponent"/>
+				<class name="UIBasicComponent"/>
+			</package>
+		</package>
+		<package name="utils">
+			<package name="extensions">
+				<class name="MovieClipExtensions"/>
+			</package>
+			<class name="Logger"/>
+			<class name="SharedObjectFix"/>
+			<class name="Sequencer"/>
+			<class name="MouseEvents"/>
+			<class name="CustomDate"/>
+			<class name="Compressor"/>
+			<class name="PatternDecoder"/>
+			<class name="ExtendedObject"/>
+			<class name="SWFLoader"/>
+			<class name="Timer"/>
+			<class name="ExtendedArray"/>
+			<class name="ConsoleUtils"/>
+			<class name="Md5"/>
+			<class name="CyclicTimer"/>
+			<class name="ExtendedString"/>
+			<class name="Crypt"/>
+			<class name="Countries"/>
+			<class name="Extensions"/>
+			<package name="rss">
+				<class name="RSSItem"/>
+				<class name="RSSChannel"/>
+				<class name="RSSLoader"/>
+			</package>
+			<class name="QueueEmbedMovieClip"/>	
+		</package>
+	</package>
+	<package name="com">
+		<package name="ankamagames">
+			<package name="exceptions">
+				<class name="FileLoadException"/>
+				<class name="ValueOutOfRangeException"/>
+				<class name="InvalidOperationException"/>
+				<class name="NullPointerException"/>
+				<class name="AbstractException"/>
+			</package>
+			<package name="types">
+				<class name="Point"/>
+			</package>
+			<package name="tools">
+				<class name="Logger"/>
+			</package>
+			<package name="interfaces">
+				<class name="IDisposable"/>
+				<class name="IComparable"/>
+			</package>
+		</package>
+	</package>
+	<package name="dofus">
+		<class name="TempSafesBis"/>
+		<class name="TempSafes"/>
+		<class name="ZaapConnect"/>
+		<class name="Kernel"/>
+		<class name="Constants"/>
+		<class name="DofusLoader"/>
+		<package name="sounds">
+			<class name="AudioManager"/>
+			<class name="AudioElement"/>
+			<class name="AudioEvents"/>
+		</package>
+		<class name="SaveTheWorld"/>
+		<class name="Electron"/>
+		<class name="DofusCore"/>
+		<package name="managers">
+			<class name="CharacteristicsManager"/>
+			<class name="AdminManager"/>
+			<class name="UIdManager"/>
+			<class name="CharactersManager"/>
+			<class name="OptionsManager"/>
+			<class name="SpellsBoostsManager"/>
+			<class name="TutorialManager"/>
+			<class name="NightManager"/>
+			<class name="InteractionsManager"/>
+			<class name="KeyManager"/>
+			<class name="DocumentsServersManager"/>
+			<class name="StreamingDisplayManager"/>
+			<class name="MapsServersManager"/>
+			<class name="DebugManager"/>
+			<class name="SpeakingItemsManager"/>
+			<class name="TipsManager"/>
+			<class name="GameActionsManager"/>
+			<class name="ChatManager"/>
+			<class name="GameManager"/>
+			<class name="AreasManager"/>
+			<class name="SpellsManager"/>
+			<class name="EffectsManager"/>
+			<class name="TutorialServersManager"/>
+			<class name="ServersManager"/>
+		</package>
+		<package name="aks">
+			<class name="Tutorial"/>
+			<class name="Waypoints"/>
+			<class name="Storages"/>
+			<class name="Infos"/>
+			<class name="Subway"/>
+			<class name="Guild"/>
+			<class name="Spells"/>
+			<class name="Friends"/>
+			<class name="Conquest"/>
+			<class name="Houses"/>
+			<class name="Mount"/>
+			<class name="Emotes"/>
+			<class name="DataProcessor"/>
+			<class name="Chat"/>
+			<class name="GameActions"/>
+			<class name="Exchange"/>
+			<class name="Basics"/>
+			<class name="Account"/>
+			<class name="Key"/>
+			<class name="Game"/>
+			<class name="Specialization"/>
+			<class name="Fights"/>
+			<class name="Aks"/>
+			<class name="Subareas"/>
+			<class name="Party"/>
+			<class name="Quests"/>
+			<class name="Documents"/>
+			<class name="Job"/>
+			<class name="Items"/>
+			<class name="Dialog"/>
+			<class name="Enemies"/>
+			<class name="Handler"/>
+		</package>
+		<package name="utils">
+			<class name="LangFileLoader"/>
+			<package name="consoleParsers">
+				<class name="ChatConsoleParser"/>
+				<class name="DebugConsoleParser"/>
+				<class name="AbstractConsoleParser"/>
+			</package>
+			<class name="DofusConfiguration"/>
+			<class name="DofusTranslator"/>
+			<package name="nameChecker">
+				<class name="NameChecker"/>
+				<class name="CheckResults"/>
+				<package name="rules">
+					<class name="NameCheckerCharacterNameRules"/>
+					<class name="NameCheckerGuildNameRules"/>
+					<class name="INameCheckerRules"/>
+				</package>
+			</package>
+			<class name="Api"/>
+			<package name="criterions">
+				<package name="basicCriterion">
+					<class name="BasicCriterionEpisod"/>
+				</package>
+				<package name="subareaCriterion">
+					<class name="SubareaCriterionAlignment"/>
+				</package>
+				<class name="ICriterion"/>
+				<class name="CriterionManager"/>
+			</package>
+			<class name="ApiElement"/>
+		</package>
+		<package name="graphics">
+			<package name="battlefield">
+				<class name="EffectIcon"/>
+				<class name="CraftResultOverHead"/>
+				<class name="TextWithTitleOverHead"/>
+				<class name="GuildOverHead"/>
+				<class name="FightOptionsOverHead"/>
+				<class name="EffectsOverHead"/>
+				<class name="SmileyOverHead"/>
+				<class name="TextOverHead"/>
+				<class name="DofusBattlefield"/>
+				<class name="OfflineOverHead"/>
+				<class name="AbstractTextOverHead"/>
+			</package>
+			<package name="gapi">
+				<class name="Gapi"/>
+				<package name="styles">
+					<class name="DofusStylePackage"/>
+				</package>
+				<package name="controls">
+					<package name="guildhousesviewer">
+						<class name="GuildHousesViewerHouses"/>
+					</package>
+					<class name="ItemViewer"/>
+					<class name="ItemSetViewer"/>
+					<class name="DeathCounter"/>
+					<class name="MouseShortcuts"/>
+					<class name="MountViewer"/>
+					<class name="Timeline"/>
+					<class name="CraftViewer"/>
+					<package name="guildmembersviewer">
+						<class name="GuildMembersViewerMember"/>
+					</package>
+					<class name="MountWeight"/>
+					<class name="ConquestStatsViewer"/>
+					<class name="ClassCustomize"/>
+					<class name="GuildBoostsViewer"/>
+					<class name="LivingItemsViewer"/>
+					<class name="BookPageIndex"/>
+					<class name="FightChallengeViewer"/>
+					<class name="ChooseCharacterSprite"/>
+					<class name="StarsDisplayer"/>
+					<package name="taxcollectorsviewer">
+						<class name="TaxCollectorsViewerPlayer"/>
+						<class name="TaxCollectorsViewerItem"/>
+					</package>
+					<package name="itemviewer">
+						<class name="ItemViewerItem"/>
+					</package>
+					<class name="BuffViewer"/>
+					<class name="MiniMap"/>
+					<package name="craftviewer">
+						<class name="CraftViewerCraftItem"/>
+					</package>
+					<class name="PointsViewer"/>
+					<package name="conqueststatsviewer">
+						<class name="ConquestStatsViewerItem"/>
+					</package>
+					<class name="ConquestZonesViewer"/>
+					<class name="SpellBoostViewer"/>
+					<class name="QuestionViewer"/>
+					<class name="BookPageText"/>
+					<class name="SpellFullInfosViewer"/>
+					<class name="Helper"/>
+					<class name="ClassSelector"/>
+					<class name="Smileys"/>
+					<class name="AlignmentViewer"/>
+					<class name="QuestStepViewer"/>
+					<class name="Heart"/>
+					<class name="ListInventoryViewer"/>
+					<class name="InventoryViewerWithAllFilter"/>
+					<class name="Emblem"/>
+					<package name="timeline">
+						<class name="TimelinePointer"/>
+						<class name="TimelineItem"/>
+					</package>
+					<package name="jobviewer">
+						<class name="JobViewerSkillItem"/>
+					</package>
+					<package name="guildboostsviewer">
+						<class name="GuildBoostsViewerSpell"/>
+					</package>
+					<class name="SpellInfosViewer"/>
+					<package name="questionviewer">
+						<class name="QuestionViewerAnswerItem"/>
+					</package>
+					<class name="GuildMountParkViewer"/>
+					<class name="GuildMembersViewer"/>
+					<package name="spellfullinfosvieweritem">
+						<class name="SpellFullInfosViewerItem"/>
+					</package>
+					<class name="ArtworkRotation"/>
+					<package name="guildmountparkviewer">
+						<class name="MountParksViewerItem"/>
+					</package>
+					<class name="ColorSelector"/>
+					<class name="Chat"/>
+					<class name="ChooseItemSkin"/>
+					<package name="listinventoryviewer">
+						<class name="ListInventoryViewerItem"/>
+						<class name="ListInventoryViewerItemNoPrice"/>
+					</package>
+					<class name="JobViewer"/>
+					<class name="SpriteViewer"/>
+					<class name="PlayerWeight"/>
+					<class name="ClassInfosViewer"/>
+					<class name="GridInventoryViewer"/>
+					<class name="InventoryViewer"/>
+					<class name="ChooseServerSprite"/>
+					<package name="alignmentviewer">
+						<class name="AlignmentViewerOrder"/>
+						<class name="SpecializationViewer"/>
+						<class name="AlignmentViewerFeatsItem"/>
+						<class name="RankViewer"/>
+						<class name="AlignmentViewerTree"/>
+						<class name="AlignmentViewerTreeItem"/>
+					</package>
+					<class name="StatsViewer"/>
+					<package name="statsviewer">
+						<class name="StatsViewerStatItem"/>
+					</package>
+					<class name="BannerSpriteInfos"/>
+					<package name="bookpageindex">
+						<class name="BookPageIndexChapterItem"/>
+					</package>
+					<class name="ConquestJoinViewer"/>
+					<package name="inventoryviewer">
+						<class name="IInventoryFilter"/>
+					</package>
+					<class name="GuildHousesViewer"/>
+					<package name="artworkrotation">
+						<class name="ArtworkRotationItem"/>
+					</package>
+					<class name="FightChallengeIcon"/>
+					<class name="QuestStepListViewer"/>
+					<class name="JobOptionsViewer"/>
+					<class name="TaxCollectorsViewer"/>
+					<class name="SpouseViewer"/>
+					<class name="BookPageTitle"/>
+					<package name="conquestzonesviewer">
+						<class name="ConquestZonesViewerAreaItem"/>
+						<class name="ConquestZonesViewerVillageItem"/>
+					</package>
+					<class name="Card"/>
+				</package>
+				<package name="ui">
+					<class name="ChallengeMenu"/>
+					<class name="Timeline"/>
+					<class name="Shortcuts"/>
+					<class name="Exchange"/>
+					<class name="FightsInfos"/>
+					<class name="HouseSale"/>
+					<class name="ChooseNickName"/>
+					<package name="crafterlist">
+						<class name="CrafterListItem"/>
+					</package>
+					<class name="CenterInfo"/>
+					<package name="gifts">
+						<class name="GiftsSprite"/>
+					</package>
+					<class name="ChooseFeed"/>
+					<package name="shortcuts">
+						<class name="ShortcutsItem"/>
+					</package>
+					<class name="TitleDisplayer"/>
+					<class name="AskAlertServer"/>
+					<class name="ServerList"/>
+					<class name="MountParkSale"/>
+					<class name="PayZoneDialog"/>
+					<class name="CreateGuild"/>
+					<class name="Friends"/>
+					<package name="chooseserver">
+						<class name="ChooseServerListItem"/>
+					</package>
+					<class name="Indicator"/>
+					<class name="AskOkWait"/>
+					<class name="DocumentParchment"/>
+					<class name="AskSecretAnswer"/>
+					<class name="Storage"/>
+					<package name="spells">
+						<class name="SpellsItem"/>
+					</package>
+					<class name="GameOver"/>
+					<class name="BigStoreSearch"/>
+					<class name="Craft"/>
+					<class name="PayZone"/>
+					<class name="ForgemagusCraft"/>
+					<class name="KnownledgeBase"/>
+					<class name="Subway"/>
+					<class name="Party"/>
+					<class name="GuildMemberInfos"/>
+					<class name="Gifts"/>
+					<class name="SpellViewerOnCreate"/>
+					<class name="ItemViewer"/>
+					<class name="Debug"/>
+					<class name="TaxCollectorStorage"/>
+					<class name="FightOptionButtons"/>
+					<package name="gameresult">
+						<class name="GameResultTeam"/>
+						<class name="GameResultTeamPVP"/>
+						<class name="GameResultPlayerPVP"/>
+						<class name="GameResultPlayer"/>
+					</package>
+					<class name="ChooseCharacter"/>
+					<package name="login">
+						<class name="LoginNewsItem"/>
+					</package>
+					<class name="AutomaticServer"/>
+					<class name="NpcShop"/>
+					<class name="ItemUtility"/>
+					<class name="Quests"/>
+					<class name="CardsCollection"/>
+					<class name="CharactersMigration"/>
+					<class name="Buff"/>
+					<class name="CreateCharacter"/>
+					<class name="BigStoreBuy"/>
+					<package name="subway">
+						<class name="SubwayItem"/>
+					</package>
+					<class name="Login"/>
+					<package name="knownledgebase">
+						<class name="KnownledgeBaseItem"/>
+						<class name="KnownledgeBaseCategoryItem"/>
+					</package>
+					<package name="party">
+						<class name="PartyItem"/>
+					</package>
+					<class name="StatsJob"/>
+					<class name="DirectionChooser"/>
+					<class name="AskYesNoIgnore"/>
+					<class name="AskYesNo"/>
+					<class name="DocumentBook"/>
+					<class name="ItemFound"/>
+					<class name="MonsterAndLookSelector"/>
+					<class name="NpcDialog"/>
+					<package name="fightsinfos">
+						<class name="FightsInfosPlayerItem"/>
+						<class name="FightsInfosFightItem"/>
+					</package>
+					<class name="AskPrivateChat"/>
+					<class name="SpellForget"/>
+					<class name="PlayerShopModifier"/>
+					<class name="Banner"/>
+					<class name="ServerInformations"/>
+					<class name="MountAncestorsViewer"/>
+					<class name="AskMainMenu"/>
+					<class name="Conquest"/>
+					<class name="JoinFriend"/>
+					<class name="PlayerInfos"/>
+					<class name="EditPlayer"/>
+					<class name="WaitingQueue"/>
+					<class name="Tips"/>
+					<class name="HouseIndoor"/>
+					<class name="Inventory"/>
+					<class name="BigStoreSearchFullSoul"/>
+					<class name="Tutorial"/>
+					<class name="HistoryViewerOnCreate"/>
+					<class name="SecureCraft"/>
+					<class name="FightChallenge"/>
+					<package name="waypoints">
+						<class name="WaypointsItem"/>
+					</package>
+					<package name="spellforget">
+						<class name="SpellForgetItem"/>
+					</package>
+					<class name="PlayerShop"/>
+					<class name="SpellInfos"/>
+					<class name="AskGameBegin"/>
+					<class name="GameResult"/>
+					<class name="MountViewer"/>
+					<class name="ItemSummoner"/>
+					<class name="StringCourse"/>
+					<class name="InventorySearch"/>
+					<class name="CrafterList"/>
+					<package name="playerinfos">
+						<class name="PlayerInfosEffectsItem"/>
+					</package>
+					<class name="MovableContainerBar"/>
+					<class name="AskCustomShortcut"/>
+					<class name="Guild"/>
+					<class name="Spells"/>
+					<class name="PopupQuantity"/>
+					<class name="KeyCode"/>
+					<class name="ItemSelector"/>
+					<class name="MapExplorer"/>
+					<class name="Options"/>
+					<class name="BigStoreSell"/>
+					<class name="PopupHexa"/>
+					<class name="ChooseItemSkin"/>
+					<class name="Register"/>
+					<class name="GuildHouseRights"/>
+					<class name="MountStorage"/>
+					<package name="bigstore">
+						<class name="BigStorePriceItem"/>
+						<class name="BigStoreSellFilter"/>
+					</package>
+					<class name="Zoom"/>
+					<class name="AskLinkWarning"/>
+					<class name="ChooseServer"/>
+					<class name="MainMenu"/>
+					<package name="inventory">
+						<class name="ContainerBackground"/>
+						<class name="ContainerHighlight"/>
+					</package>
+					<class name="CrafterCard"/>
+					<class name="AskCancel"/>
+					<class name="Mount"/>
+					<class name="Cinematic"/>
+					<class name="AskReportMessage"/>
+					<class name="DocumentRoadSign"/>
+					<class name="FloatingTips"/>
+					<class name="ServersManagerRetry"/>
+					<class name="MapInfos"/>
+					<class name="Waypoints"/>
+					<package name="friends">
+						<class name="FriendsDisconnectedItem"/>
+						<class name="FriendsConnectedItem"/>
+					</package>
+					<class name="AskOk"/>
+					<class name="WaitingMessage"/>
+					<class name="Waiting"/>
+					<package name="quests">
+						<class name="QuestsObjectiveItem"/>
+						<class name="QuestsStepRewardItem"/>
+						<class name="QuestsStepItem"/>
+						<class name="QuestsQuestItem"/>
+					</package>
+					<package name="charactersmigration">
+						<class name="CharactersMigrationItem"/>
+					</package>
+					<class name="PayZoneDialog2"/>
+					<class name="BuffInfos"/>
+					<package name="mountstorage">
+						<class name="MountStorageMountItem"/>
+					</package>
+					<class name="CenterText"/>
+				</package>
+				<package name="core">
+					<class name="DofusAdvancedComponent"/>
+				</package>
+			</package>
+		</package>
+		<package name="datacenter">
+			<class name="QuestObjective"/>
+			<class name="Basics"/>
+			<class name="Challenge"/>
+			<class name="Waypoint"/>
+			<class name="LocalPlayer"/>
+			<class name="Game"/>
+			<class name="TutorialIf"/>
+			<class name="Item"/>
+			<class name="QuestStep"/>
+			<class name="Effect"/>
+			<class name="ConquestWorldData"/>
+			<class name="PrismSprite"/>
+			<class name="Job"/>
+			<class name="MountableCreature"/>
+			<class name="MonsterGroup"/>
+			<class name="Specialization"/>
+			<class name="Title"/>
+			<class name="Creature"/>
+			<class name="Feat"/>
+			<class name="ConquestVillageData"/>
+			<class name="OfflineCharacter"/>
+			<class name="Document"/>
+			<class name="Mutant"/>
+			<class name="ItemSet"/>
+			<class name="FightChallengeData"/>
+			<class name="PrismPoint"/>
+			<class name="Tutorial"/>
+			<class name="Server"/>
+			<class name="Character"/>
+			<class name="Storage"/>
+			<class name="NonPlayableCharacter"/>
+			<class name="Craft"/>
+			<class name="GuildInfos"/>
+			<class name="MountPark"/>
+			<class name="House"/>
+			<class name="TaxCollectorStorage"/>
+			<class name="Conquest"/>
+			<class name="Spell"/>
+			<class name="FeatEffect"/>
+			<class name="LaunchedSpell"/>
+			<class name="ServerProblemEvent"/>
+			<class name="Rank"/>
+			<class name="Team"/>
+			<class name="PlayerShop"/>
+			<class name="TutorialWaitingCase"/>
+			<class name="CloseCombat"/>
+			<class name="DofusMap"/>
+			<class name="ParkMount"/>
+			<class name="TaxCollector"/>
+			<class name="Accessory"/>
+			<class name="Subarea"/>
+			<class name="Mount"/>
+			<class name="Crafter"/>
+			<class name="Subway"/>
+			<class name="BigStore"/>
+			<class name="GuildRights"/>
+			<class name="Hint"/>
+			<class name="ConquestBonusData"/>
+			<class name="JobOptions"/>
+			<class name="TutorialAction"/>
+			<class name="TutorialWaiting"/>
+			<class name="TutorialBloc"/>
+			<class name="Datacenter"/>
+			<class name="Order"/>
+			<class name="Alignment"/>
+			<class name="QuestBook"/>
+			<class name="SecureCraftExchange"/>
+			<class name="Exchange"/>
+			<class name="Shop"/>
+			<class name="Question"/>
+			<class name="ServerProblem"/>
+			<class name="ConquestZoneData"/>
+			<class name="Skill"/>
+			<class name="ServerInformations"/>
+			<class name="Quest"/>
+			<class name="Monster"/>
+			<class name="PlayableCharacter"/>
+			<class name="FightInfos"/>
+		</package>
+	</package>
+	<package name="mx">
+		<package name="events">
+			<class name="EventDispatcher"/>
+		</package>
+	</package>
+	<package name="org">
+		<package name="utils">
+			<class name="Bitmap"/>
+			<class name="SimpleDateFormatter"/>
+		</package>
+	</package>
+</loader>
